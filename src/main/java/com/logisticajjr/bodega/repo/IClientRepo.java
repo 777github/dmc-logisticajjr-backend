@@ -1,0 +1,7 @@
+package com.logisticajjr.bodega.repo;
+
+import com.logisticajjr.bodega.model.Client;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface IClientRepo extends JpaRepository<Client, Integer> {
+}
